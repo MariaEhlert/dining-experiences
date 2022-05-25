@@ -1,0 +1,21 @@
+Footer{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2%;
+    div{
+        display: flex;
+        justify-content: center;
+    }
+    .copy{
+        padding-top: 1%;
+    }
+    .media{
+        a{
+            width: 7%;
+            img{
+                width: 100%; 
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.aboutWrapper{
+    padding: 4%;
+    .articleOne{
+        text-align: center;
+        h2{
+            font-size: 2vw; 
+            padding-bottom: 3%;
+        }
+        p{
+            font-size: 1.3vw;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+
+}
+.employeeWrapper{
+    padding: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+    h2{
+        font-size: 2vw;
+        text-align: center;   
+    }
+    .articleTwo{
+        padding: 7%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        figure{
+            background-color: rgba(255, 228, 196, 0.545);
+            padding: 6%;
+            .profilName{
+                padding-bottom: 3%;
+                font-style: italic;
+            }
+            img{
+                width: 60%;
+                padding-bottom: 5%;
+            }
+
+        }  
+    }
+}

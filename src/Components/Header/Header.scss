@@ -1,0 +1,24 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: bisque;
+    img{
+        padding: 3%;
+
+        width: 50%;
+    }
+    nav{
+        ul{
+            display: flex;
+            justify-content: end;
+            li{
+                display: inline;
+                padding: 3%;
+                a{
+                    font-size: 2vw;
+                    color: black;
+                }
+            }
+        }
+    }
+}

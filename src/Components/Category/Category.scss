@@ -1,0 +1,27 @@
+.categoryWrapper{
+    height: 75.5vh;
+    span{
+        padding-left: 2%;
+        padding-top: 2%;
+    }
+    .articleOne{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        padding-bottom: 3%;
+        figure{
+            padding-top: 3%;
+            padding-left: 20%;
+            padding-right: 20%;
+            img{
+                width: 100%;
+            }
+            p{
+               padding-bottom: 3%; 
+               font-size: 1.3vw;
+               font-style: italic;
+               color: black;
+            }
+        }
+    }
+}
